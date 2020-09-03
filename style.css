@@ -1,0 +1,39 @@
+.container{
+    display:flex;
+    background-color:yellowgreen;
+    flex-direction:column;
+}
+.content{
+    display:flex;
+    background-color:darkorange;
+}
+.content nav{
+    border-right:3px solid tomato;
+}
+.content main{
+    padding:10px;
+    text-align:left;
+}
+.content aside{
+    border-left:3px solid tomato;
+}
+nav, aside{
+    flex-basis:170px;
+    flex-shrink:0;
+}
+header{
+    text-align:center;
+    padding-left:20px;
+    border-bottom:3px solid gray;
+}
+footer{
+    border-top:3px solid gray;
+    padding:20px;
+    text-align:center;
+}
+a{
+    text-decoration:none;
+}
+li{
+    font-size:16px;
+}
